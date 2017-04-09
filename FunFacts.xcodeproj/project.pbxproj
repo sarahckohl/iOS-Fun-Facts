@@ -12,6 +12,7 @@
 		F43CD5DC1E72199C00CBEDE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43CD5DA1E72199C00CBEDE3 /* Main.storyboard */; };
 		F43CD5DE1E72199C00CBEDE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43CD5DD1E72199C00CBEDE3 /* Assets.xcassets */; };
 		F43CD5E11E72199C00CBEDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43CD5DF1E72199C00CBEDE3 /* LaunchScreen.storyboard */; };
+		F4EF666B1E984EFC003D5F81 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF666A1E984EFC003D5F81 /* BackgroundColorProvider.swift */; };
 		F4FDAF0E1E89F7B30017F98F /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDAF0D1E89F7B30017F98F /* FactProvider.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		F43CD5DD1E72199C00CBEDE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F43CD5E01E72199C00CBEDE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F43CD5E21E72199C00CBEDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EF666A1E984EFC003D5F81 /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
 		F4FDAF0D1E89F7B30017F98F /* FactProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +42,7 @@
 		F43CD5CA1E72199C00CBEDE3 = {
 			isa = PBXGroup;
 			children = (
+				F4EF666A1E984EFC003D5F81 /* BackgroundColorProvider.swift */,
 				F4FDAF0D1E89F7B30017F98F /* FactProvider.swift */,
 				F43CD5D51E72199C00CBEDE3 /* FunFacts */,
 				F43CD5D41E72199C00CBEDE3 /* Products */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					F43CD5D21E72199C00CBEDE3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TQ4CTVNPPG;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,6 +145,7 @@
 			files = (
 				F43CD5D91E72199C00CBEDE3 /* ViewController.swift in Sources */,
 				F43CD5D71E72199C00CBEDE3 /* AppDelegate.swift in Sources */,
+				F4EF666B1E984EFC003D5F81 /* BackgroundColorProvider.swift in Sources */,
 				F4FDAF0E1E89F7B30017F98F /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQ4CTVNPPG;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sarahckohl-com.github.FunFacts";
@@ -274,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TQ4CTVNPPG;
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sarahckohl-com.github.FunFacts";
